@@ -1,0 +1,13 @@
+// 1. 要先載入這個檔案，不然會出錯！
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. 再載入複製的 變數檔 跟 通用樣式
+@import "../stylesheets/helpers/variables";
+@import "../stylesheets/helpers/utilities";
+
+// 3. 再載入全部的 bootstrap，放在最下面
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+@import "../stylesheets/components/custom-buttons";

@@ -1,0 +1,11 @@
+// .btn-#{$color} {
+//     @include button-variant($value, $value);
+//   }
+
+.btn-custom-hex{
+    @include button-variant(#69F0AE, #69F0AE);
+}
+
+.btn-outline-hex {
+    @include button-outline-variant(#69F0AE);
+  }
